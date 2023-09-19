@@ -1,0 +1,29 @@
+body {
+    margin: 60px 40px;
+    background-color: rgb(58, 207, 233);
+}
+header img {
+    height: 300px;
+    width: 450px;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    display: flex;
+    
+}
+footer img {
+    height: 170px;
+    width: 210px;
+}
+
+form {
+    margin:60px 0px;
+    background-color: darkgray;
+}
+
+.scene {
+    margin: 20px;
+}

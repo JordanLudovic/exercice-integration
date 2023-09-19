@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>One Piece</title>
+</head>
+<body>
+    <header>
+        <h1>One Piece</h1>
+        <img src="../exercice/img/EmZipeqW8AAWdSJ.jpg" alt="wano">
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Personnages</a></li>
+                <li><a href="#">Épisodes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        
+        <h2>L'univers de One Piece</h2>
+        <p>Bienvenue sur la page One Piece, où vous pouvez nous dire vos préférences et votre avancée dans le manga ! </p>
+        <img src="img/Personnages-de-One-Piece-1052x592.webp" alt="mosaique">
+        
+    </article>
+
+    
+
+    <form action="" method="post">
+        <h2>Questionnaire :</h2>
+        <label for="Protagoniste">Protagoniste :</label>
+        <input type="text" id="nom" name="nom" required placeholder="Entrez son nom"> 
+        
+        <label for="Antagoniste">Antagoniste :</label>
+        <input type="text" id="nom" name="nom" required placeholder="Entrez son nom"> <br>
+        
+        <label for="Equipage">Equipage :</label>
+        <input type="text" id="nom" name="nom" required placeholder="Entrez son nom"> <br>
+
+        <!-- <label for="numero">Combien d'épisodes visionnés ?  :</label>
+        <input type="text" id="numero" name="numero" pattern="[0-1075]*" placeholder="Entrez uniquement des chiffres"> -->
+
+        <label for="sujet">Choisissez votre camp :</label>
+        <select id="sujet" name="sujet" required>
+            <option value="" disabled selected>Sélectionnez un camp</option>
+            <option value="pirates">Les Pirates</option>
+            <option value="marine">La Marine</option>
+            <option value="autre">Autre</option>
+        </select> <br>
+        <div class="scene">
+        <label for="message">Votre scène préférée :</label>
+        <textarea id="message" name="message" rows="4" placeholder="Écrivez votre scène préférée ." required></textarea> <br>
+        </div>
+        <label for="email">Email :</label>
+        <input type="text" id="nom" name="nom" required placeholder="Entrez votre mail"> <br>
+        
+        <label for="telephone">Téléphone :</label>
+        <input type="tel" id="telephone" name="telephone" pattern="[0-9]{10}" placeholder="Entrez votre numéro de téléphone (10 chiffres)"> <br>
+        
+        <button type="submit">Envoyer</button> <br>
+    </form>
+
+    <footer>
+        <img src="img/One_piece_logo.png" alt="drapeau luffy">
+        
+        <address>
+            <p>Contactez-nous : <a href="mailto:contact@onepiecefan.com">contact@onepiecefan.com</a></p>
+            <p>Den Den Mushi (Téléphone) : +33 1 20 30 40 50</p>
+            <p>&copy; 2023 One Piece Fan </p>
+        </address>
+        
+    </footer>
+</body>
+</html>
+
